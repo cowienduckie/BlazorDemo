@@ -38,5 +38,5 @@ jobs:
         with:
           app-name: 'weather-forecast-func'
           slot-name: 'Production'
-          package: './output'
+          package: '../output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_815BD9C6725E49DD862DA8FC89F4E587 }}
